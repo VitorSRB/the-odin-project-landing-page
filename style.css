@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F2937;
+  padding: 8px;
+}
+
+header img {
+  width: 225px;
+  height: 75px;
+  margin-left: 200px;
+}
+
+nav ul {
+  display: flex;
+  gap: 24px;
+  margin-right: 72px;
+  font-size: 18px;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
