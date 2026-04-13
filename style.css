@@ -173,3 +173,11 @@ figcaption {
   border: 2px solid #E5E7EB;
   cursor: pointer;
 }
+
+footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  font-size: 16px;
+  text-align: center;
+  padding: 30px;
+}
