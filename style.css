@@ -125,6 +125,19 @@ figcaption {
   font-size: 16px;
 }
 
+.quote {
+  background-color: #E5E7EB;
+  padding: 5% 18%;
+  color: #1F2937;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.quote figcaption {
+  margin-left: auto;
+  font-weight: 900;
+}
+
 
 
 
