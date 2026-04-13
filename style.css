@@ -83,7 +83,7 @@ nav a {
   width: 96px;
   height: 36px;
   color: #E5E7EB;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   cursor: pointer;
 }
@@ -138,8 +138,38 @@ figcaption {
   font-weight: 900;
 }
 
+.cta {
+  padding: 5% 10%;
+}
 
+.cta-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 15px;
+  padding: 3% 8%;
+}
 
+.cta-card h3 {
+  padding-bottom: 8px;
+}
 
+.cta-card p {
+  padding-right: 48px;
+}
 
-
+.cta-card div:first-child {
+  flex: 1;
+}
+.cta-card button {
+  font-size: 18px;
+  background-color: #3882F6;
+  width: 96px;
+  height: 36px;
+  color: #E5E7EB;
+  border-radius: 10px;
+  border: 2px solid #E5E7EB;
+  cursor: pointer;
+}
